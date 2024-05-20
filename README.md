@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ```sh
-rping 0.1.5
+rping 0.1.6
  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄        ▄  ▄▄▄▄▄▄▄▄▄▄▄ 
 ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░▌      ▐░▌▐░░░░░░░░░░░▌
 ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌ ▀▀▀▀█░█▀▀▀▀ ▐░▌░▌     ▐░▌▐░█▀▀▀▀▀▀▀▀▀ 
@@ -58,6 +58,7 @@ This will set the [`CAP_NET_RAW` capability](https://man7.org/linux/man-pages/ma
 - Perform any TCP flag, e.g. syn, flooding attacks with customizable parameters.
 - Specify the length of tcp packets, target IP, target port, number of packets and the attack duration.
 - Multi-threaded execution for increased efficiency.
+- Both IP and TCP packets are carefully crafted to simulate a fully anonymous any flag TCP DoS Flood.
 
 ## 🚗 Usage
 
