@@ -81,7 +81,7 @@ impl TcpHeader {
         let off_reserved_flags: u16 = (data_offset << 12) | ((reserved & 0b111111) << 6) | (flag);
 
         let mut tcp_header = Self {
-            sport: rng.gen::<u16>(),
+            sport: 80,
             dport: dest_port,
             seq: rng.gen::<u32>(),
             ack: rng.gen::<u32>(),
