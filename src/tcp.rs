@@ -69,6 +69,8 @@ impl TcpHeader {
             ("psh", 8),
             ("ack", 16),
             ("urg", 32),
+            ("ece", 64),  
+            ("cwr", 128), 
         ]
         .iter()
         .cloned()
